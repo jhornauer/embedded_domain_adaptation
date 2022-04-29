@@ -1,0 +1,188 @@
+### Expected dataset structure [NYU Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html): 
+```
+nyudepthv2/
+    train/
+        basement_0001a/
+        basement_0001b/
+        ...
+    val/
+        official/
+```
+
+### Expected dataset structure [DIML RGB+D](https://dimlrgbd.github.io/): 
+```
+dimlrgbd/
+    train/
+        HR/
+            01. Warehouse/
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            02. Cafe/ 
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            ...
+        LR/
+            01. Warehouse/
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            02. Cafe/ 
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            ...
+    test/
+        HR/
+            01. Warehouse/
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            02. Cafe/ 
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            ...
+        LR/
+            01. Warehouse/
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            02. Cafe/ 
+                color/
+                depth_filled/
+                depth_raw/
+                depth_vi/
+            ...
+    valid/
+        val/
+            color/
+            depth_filled/
+``` 
+
+### Expected dataset structure [Virtual KITTI](https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-2/): 
+```
+vkitti/
+    depth/
+        Scene01/
+            15-deg-left/
+                frames/
+                    depth/
+                        Camera_0/
+                        Camera_1/ 
+            15-deg-right/
+                frames/ 
+                    depth/
+                        Camera_0/
+                        Camera_1/
+            ...
+        Scene02/
+            15-deg-left/
+                frames/
+                    depth/
+                        Camera_0/
+                        Camera_1/ 
+            15-deg-right/
+                frames/ 
+                    depth/
+                        Camera_0/
+                        Camera_1/
+            ...
+        ...
+    rgb/
+        Scene01/ 
+            15-deg-left/
+                frames/
+                    rgb/
+                        Camera_0/
+                        Camera_1/ 
+            15-deg-right/
+                frames/ 
+                    rgb/
+                        Camera_0/
+                        Camera_1/
+            ...
+        Scene02/
+            15-deg-left/
+                frames/
+                    rgb/
+                        Camera_0/
+                        Camera_1/ 
+            15-deg-right/
+                frames/ 
+                    rgb/
+                        Camera_0/
+                        Camera_1/
+            ...
+        ...
+```
+
+### Expected dataset structure [KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php):
+```
+kitti/
+    2011_09_26/
+        2011_09_26_drive_0001_sync/
+            image_00/
+                data/
+            image_01/
+                data/
+            image_02/
+                data/
+            image_03/
+                data/
+            oxts/
+                data/
+            velodyne_points/
+                data/
+        2011_09_26_drive_0002_sync/
+            image_00/
+                data/
+            image_01/
+                data/
+            image_02/
+                data/
+            image_03/
+                data/
+            oxts/
+                data/
+            velodyne_points/
+                data/
+        ...
+    2011_09_28/ 
+        2011_09_28_drive_01_sync/
+            image_00/
+                data/
+            image_01/
+                data/
+            image_02/
+                data/
+            image_03/
+                data/
+            oxts/
+                data/
+            velodyne_points/
+                data/
+        2011_09_28_drive_02_sync/
+            image_00/
+                data/
+            image_01/
+                data/
+            image_02/
+                data/
+            image_03/
+                data/
+            oxts/
+                data/
+            velodyne_points/
+                data/
+        ...
+    ...
+``` 

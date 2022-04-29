@@ -1,0 +1,23 @@
+{
+  "general": {
+    "dataset": "diml",
+    "arch": "fastdepth",
+    "reg_val": 0.7,
+    "MIN_DEPTH": 1e-3,
+    "MAX_DEPTH": 6,
+    "output_sf": 1.0
+  },
+  "optimization": {
+    "disc_d_lr": 0.0002,
+    "disc_z_lr": 0.0002,
+    "enc_lr": 0.0002,
+    "beta1": 0.5,
+    "beta2":  0.999,
+    "n_epochs": 25,
+    "batch_size": 16,
+    "divisor": 1
+  },
+  "data": {
+    "n_samples": 100
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+singularity/
+Models/
+*.pt
+*.png
+*.log
+*.zip
+*.sh
+*.tar
+

@@ -1,0 +1,23 @@
+{
+  "general": {
+    "dataset": "kitti",
+    "arch": "fastdepth",
+    "resolution": "low",
+    "reg_val": 0.7,
+    "MIN_DEPTH": 1e-3,
+    "MAX_DEPTH": 80,
+    "output_sf": 8000e-2
+  },
+  "optimization": {
+    "disc_d_lr": 0.00001,
+    "disc_z_lr": 0.00001,
+    "enc_lr": 0.00001,
+    "momentum": 0.9,
+    "n_epochs": 10,
+    "batch_size": 4,
+    "divisor": 1
+  },
+  "data": {
+    "n_samples": 100
+  }
+}

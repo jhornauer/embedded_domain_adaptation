@@ -1,5 +1,6 @@
 __pycache__/
 singularity/
+.idea/
 *.pt
 *.png
 *.log

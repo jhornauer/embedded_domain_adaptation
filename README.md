@@ -57,7 +57,7 @@ python3 eval.py -data_dir /Datasets/ -config ./configs/kitti_fastdepth_100.json 
 
 Again, the configuration file must be specified with `-config`. With the argument `-paper` it is selected whether the models trained for the paper are evaluated or not. The argument `-scaled` specifies whether median-scaling is used. 
 
-The model trained for the paper can be downloaded here: [embedded_da_models](https://cloudstore.uni-ulm.de/s/jqAc7Ls7nKdYBbN).
+The model trained for the paper can be downloaded here: [embedded_da_models](https://cloudstore.uni-ulm.de/s/wPmBAxfGt2gxydR).
 
 To evaluate the models trained for the paper the models should be stored as follows: 
 ```
